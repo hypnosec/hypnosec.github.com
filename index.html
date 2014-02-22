@@ -14,11 +14,10 @@
 		font-family: monospace;
 	}
 
-	a:link, a:visited{
+	a:link, a:visited {
 		color: lime;
 		text-decoration: underline;
 	}
-
 
 	a:hover {
 		color: lime;
@@ -30,8 +29,17 @@
 		text-decoration: none;
 	}
 
+	footer, .center {
+		text-align: center;
+	}
+
 	table {
 		margin: auto;
+	}
+
+	#toad {
+		width: 100%;
+		max-width: 640px;
 	}
 
 	@media (max-width: 750px) {
@@ -46,12 +54,12 @@
 </head>
 
 <body>
-	<center>I, for one, accept our Hypnotoad overlord.</center>
+	<p class="center">I, for one, accept our Hypnotoad overlord.</p>
 
 	<table>
 		<tr>
 			<td>
-				<img src="toad.gif" alt="Hypnotoad" title="All glory to the Hypnotoad!" style="width:100%;max-width:640px;" />
+				<img id="toad" src="toad.gif" alt="Hypnotoad" title="All glory to the Hypnotoad!" />
 			</td>
 			<td>
 				<!-- Zen of HypnoToad -->
@@ -109,9 +117,9 @@
 		</tr>
 	</table>
 
-	<center>
+	<footer>
 		Team Hypnosec: <a href="https://github.com/cyphar">@cyphar</a> | <a href="https://github.com/auscompgeek">@auscompgeek</a> | <a href="https://github.com/infosec-au">@infosec-au</a> | <a href="http://anti-logic.info/">@rfl</a>
-	</center>
+	</footer>
 
 	<!-- You will never stop the music! -->
 	<audio autoplay loop>
